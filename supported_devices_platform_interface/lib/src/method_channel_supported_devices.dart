@@ -12,7 +12,7 @@ class MethodChannelSupportedDevices extends SupportedDevicesPlatform {
 
   @override
   Future<void> toggleStreamingSupportedDevices(bool start) =>
-      _methodChannel.invokeMethod<void>('toggleStreaming');
+      _methodChannel.invokeMethod<void>('toggleStreaming', start);
 
   @override
   Stream<String> supportedDevicesStream() => _eventChannel
