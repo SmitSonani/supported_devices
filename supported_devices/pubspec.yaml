@@ -1,5 +1,5 @@
-name: supported_devices_platform_interface
-description: A common platform interface for the `supported_devices` plugin.
+name: supported_devices
+description: Flutter plugin to get the supported devices by the platform.
 version: 0.0.1
 homepage: https://github.com/SmitSonani
 repository: https://github.com/SmitSonani/supported_devices/tree/main
@@ -13,7 +13,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.1
+  supported_devices_platform_interface:
+    path: ../supported_devices_platform_interface
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
   flutter_lints: ^1.0.4
