@@ -1,0 +1,22 @@
+name: supported_devices
+description: Flutter plugin to get the supported devices by the platform.
+version: 0.0.1
+homepage: https://github.com/SmitSonani
+repository: https://github.com/SmitSonani/supported_devices/tree/main
+
+publish_to: none
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supported_devices_platform_interface:
+    path: ../supported_devices_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
