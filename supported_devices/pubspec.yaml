@@ -17,15 +17,18 @@ dependencies:
     path: ../supported_devices_platform_interface
   supported_devices_ios:
     path: ../supported_devices_ios
+  supported_devices_android:
+    path: ../supported_devices_android
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.4
 
-flutter: 
-  plugin: 
-    platforms: 
+flutter:
+  plugin:
+    platforms:
       ios:
         default_package: supported_devices_ios
-        pluginClass: SupportedDevicesIosPlugin
+      android:
+        default_package: supported_devices_android
