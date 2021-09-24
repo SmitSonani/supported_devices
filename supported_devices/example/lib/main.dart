@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supported_devices_example/src/supported_devices_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,20 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const _SupportedDevicesPage(),
-    );
-  }
-}
-
-class _SupportedDevicesPage extends StatelessWidget {
-  const _SupportedDevicesPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Supported Devices Example'),
-      ),
+      home: const SupportedDevicesPage(),
     );
   }
 }
