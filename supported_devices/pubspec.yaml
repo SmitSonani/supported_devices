@@ -21,6 +21,8 @@ dependencies:
     path: ../supported_devices_android
   supported_devices_macos:
     path: ../supported_devices_macos
+  supported_devices_web:
+    path: ../supported_devices_web
 
 dev_dependencies:
   flutter_test:
@@ -36,3 +38,5 @@ flutter:
         default_package: supported_devices_android
       macos:
         default_package: supported_devices_macos
+      web:
+        default_package: supported_devices_web
