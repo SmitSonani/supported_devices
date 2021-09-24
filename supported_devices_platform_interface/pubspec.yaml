@@ -1,6 +1,8 @@
 name: supported_devices_platform_interface
 description: A common platform interface for the `supported_devices` plugin.
 version: 0.0.1
+homepage: https://github.com/SmitSonani
+repository: https://github.com/SmitSonani/supported_devices/tree/main
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
